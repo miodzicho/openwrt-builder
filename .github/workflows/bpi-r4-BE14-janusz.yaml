@@ -90,8 +90,9 @@ jobs:
           echo "CONFIG_PACKAGE_wireguard-tools=y" >> .config
           echo "CONFIG_PACKAGE_luci-proto-wireguard=y" >> .config
           echo "CONFIG_PACKAGE_tailscale=y" >> .config
+		      echo "CONFIG_PACKAGE_luci-mod-dashboard=y" >> .config
           echo "CONFIG_PACKAGE_qrencode=y" >> .config
-
+          
       - name: Run defconfig
         run: |
           make defconfig
