@@ -72,7 +72,7 @@ jobs:
           echo "CONFIG_PACKAGE_fail2ban=y" >> .config
           echo "CONFIG_PACKAGE_modemmanager=y" >> .config
 	  echo "CONFIG_PACKAGE_qrencode=y" >> .config
-          echo "CONFIG_PACKAGE_kmod-mhi-net=y" >> .config
+echo "CONFIG_PACKAGE_kmod-mhi-net=y" >> .config
           echo "CONFIG_PACKAGE_kmod-tun=y" >> .config
           echo "CONFIG_PACKAGE_kmod-mhi-wwan-ctrl=y" >> .config
           echo "CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y" >> .config
@@ -91,7 +91,7 @@ jobs:
           echo "CONFIG_PACKAGE_wireguard-tools=y" >> .config
           echo "CONFIG_PACKAGE_luci-proto-wireguard=y" >> .config
           echo "CONFIG_PACKAGE_tailscale=y" >> .config
-	  echo "CONFIG_PACKAGE_luci-mod-dashboard=y" >> .config
+echo "CONFIG_PACKAGE_luci-mod-dashboard=y" >> .config
 
       - name: Run defconfig
         run: |
