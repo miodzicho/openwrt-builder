@@ -96,6 +96,9 @@ jobs:
           echo "CONFIG_PACKAGE_wireguard-tools=y" >> .config
           echo "CONFIG_PACKAGE_luci-proto-wireguard=y" >> .config
           echo "CONFIG_PACKAGE_qrencode=y" >> .config
+          echo "CONFIG_PACKAGE_nvme-cli=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-nvme=y" >> .config
+          echo "CONFIG_PACKAGE_libnvme=y" >> .config
 
       - name: Run defconfig
         run: |
