@@ -71,9 +71,11 @@ jobs:
           echo "CONFIG_PACKAGE_tailscale=y" >> .config
           echo "CONFIG_PACKAGE_fail2ban=y" >> .config
           echo "CONFIG_PACKAGE_banip=y" >> .config
+          echo "CONFIG_PACKAGE_luci-app-banip=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-ddns=y" >> .config
           echo "CONFIG_PACKAGE_luci-mod-dashboard=y" >> .config
           echo "CONFIG_PACKAGE_usteer=y" >> .config
+          echo "CONFIG_PACKAGE_luci-app-usteer=y" >> .config
           echo "CONFIG_PACKAGE_luci-mod-status=y" >> .config
           echo "CONFIG_PACKAGE_modemmanager=y" >> .config
           echo "CONFIG_PACKAGE_kmod-mhi-net=y" >> .config
