@@ -1,1 +1,14 @@
+# additional package for community folks
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_qrencode=y
+
+CONFIG_PACKAGE_tailscale=y
+CONFIG_PACKAGE_fail2ban=y
+
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_kmod-nvme=y
+CONFIG_PACKAGE_libnvme=y
+CONFIG_PACKAGE_kmod-sched-cake=y
 
