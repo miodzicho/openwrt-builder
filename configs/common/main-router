@@ -39,6 +39,7 @@ CONFIG_PACKAGE_pciutils=y
 CONFIG_PACKAGE_tc-full=y
 # CONFIG_PACKAGE_tc-tiny is not set
 CONFIG_PACKAGE_luci-mod-dashboard=y
+CONFIG_PACKAGE_adguardhome=y
 
 # attendedsysupgrade / owut
 CONFIG_PACKAGE_owut=y
