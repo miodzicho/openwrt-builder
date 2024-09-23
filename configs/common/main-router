@@ -88,6 +88,8 @@ CONFIG_PACKAGE_bind-host=y
 
 #tailscale
 CONFIG_PACKAGE_tailscale=y
+CONFIG_PACKAGE_luci-app-upnp=y
+
 
 # language
 CONFIG_LUCI_LANG_pl=y
