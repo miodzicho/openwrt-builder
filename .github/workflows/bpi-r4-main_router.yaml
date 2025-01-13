@@ -74,6 +74,10 @@ jobs:
           sed -i '/CONFIG_PACKAGE_wpad-mbedtls=y/d' .config
           curl -SL https://raw.githubusercontent.com/danpawlik/openwrt-builder/master/configs/common/openssl >> .config
 
+      - name: Add kmod-tun
+        run: |
+          echo "CONFIG_PACKAGE_kmod_tun=y" >> .config
+      
       - name: Add librespeed-go
         run: |
           echo "CONFIG_PACKAGE_librespeed-go=y" >> .config
