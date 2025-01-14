@@ -76,7 +76,7 @@ jobs:
 
       - name: Add kmod-tun
         run: |
-          echo "CONFIG_PACKAGE_kmod_tun=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-tun=y" >> .config
       
       - name: Add librespeed-go
         run: |
